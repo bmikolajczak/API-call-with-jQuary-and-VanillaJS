@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ajax app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+</head>
+<body>
+    
+    <div class="calculations">
+        <h1>Calculations</h1>
+        <form class="input-form">
+            <input type="text" id="x" placeholder="X"> 
+            <input type="text" id="y" placeholder="Y" ><br>
+            <input type="button" id="calc" value="Call API (jQuery)" />
+            <input type="button" id="calc" value="Call API (vanillaJS)" onclick="loadDoc()" />
+        </form>
+        <ul>
+            <li> x + y = <span id="sum"></span></li>
+            <li>x - y = <span id="difference"></span></li>
+            <li> x * y = <span id="product"></span></li>
+            <li>x / y = <span id="quotient"></span></li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="./jquerycall.js">
+    </script>
+    <script type="text/javascript" src="./vanillajscall.js">
+    </script>
+</body>
+</html>

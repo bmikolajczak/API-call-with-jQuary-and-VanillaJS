@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(rgba(48,97,91,0.5),rgba(48,97,91,.5)), url(https://i.pinimg.com/736x/54/4d/b0/544db0739a67761bc9c87f2dfb30a288.jpg);
+    background-size: auto;  
+}
+
+.calculations{
+    height: 80vh;
+    width: 30vw;
+    padding: 20px 15px;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgba(173,90,52,.85);
+    border-radius: 6px;
+}
+
+.input-form{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.input-form input[type=text]{
+    height: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding:0;
+}
+.input-form input[type=button]{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    font-family: "Lato", sans-serif;
+}
+h1{
+    font-family: "Bebas Neue",sans-serif;
+    letter-spacing: 5px;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    font-size: 20px;
+}
+li{
+    margin-right: 30px;
+}
+
